@@ -1,0 +1,11 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+
+    <f:entry title="Boot task name" field="tasks">
+        <f:textbox/>
+    </f:entry>
+    <f:entry title="JVM options" field="jvmOpts">
+        <f:textbox/>
+    </f:entry>
+
+</j:jelly>
