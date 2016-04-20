@@ -14,7 +14,7 @@
     <packaging>hpi</packaging>
     <description>Build your clojure project using boot</description>
     <name>Boot build tool for Clojure</name>
-    <url>http://wiki.jenkins-ci.org/display/JENKINS/boot+plugin</url>
+    <url>http://wiki.jenkins-ci.org/display/JENKINS/Boot-clj+Plugin</url>
 
     <developers>
         <developer>
@@ -31,6 +31,12 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
+    <scm>
+        <connection>scm:git:ssh://github.com/jenkinsci/boot-clj-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/jenkinsci/boot-clj-plugin.git</developerConnection>
+        <url>https://github.com/jenkinsci/boot-clj-plugin</url>
+    </scm>
 
     <properties>
         <jenkins.version>1.609.1</jenkins.version>
