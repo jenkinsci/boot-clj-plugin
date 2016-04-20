@@ -8,7 +8,7 @@
     </parent>
 
     <artifactId>boot-clj</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>hpi</packaging>
     <description>Build your clojure project using boot</description>
     <name>Boot build tool for Clojure</name>
@@ -34,7 +34,7 @@
         <connection>scm:git:ssh://github.com/jenkinsci/boot-clj-plugin.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/jenkinsci/boot-clj-plugin.git</developerConnection>
         <url>https://github.com/jenkinsci/boot-clj-plugin</url>
-      <tag>boot-clj-1.0.0</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
